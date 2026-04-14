@@ -14,11 +14,8 @@ Responsibilities:
 
 
 Understand user intent
-
 Decide which model/tool to call
-
 Manage task flow
-
 Maintain conversation memory
 
 
