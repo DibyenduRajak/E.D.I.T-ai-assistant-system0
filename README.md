@@ -2,6 +2,7 @@
 
 
 🧠 Core Architecture Overview
+
 🔷 1. Main Brain (Orchestrator AI)
 
 This is the decision engine.
