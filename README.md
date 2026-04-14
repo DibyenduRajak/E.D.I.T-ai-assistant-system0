@@ -20,6 +20,7 @@ Run via Ollama
 Model options:
 gemma:3 (fast + structured)
 llama3 (better reasoning)
+
 🔷 2. Worker Models (Specialized AIs)
 
 You’ll run 3 local models, each optimized for a domain:
