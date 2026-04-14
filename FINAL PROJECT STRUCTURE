@@ -1,0 +1,28 @@
+EDIT-AI/
+│
+├── main.py
+│
+├── core/
+│   ├── brain.py
+│   ├── router.py
+│
+├── models/
+│   ├── chat_model.py
+│   ├── code_model.py
+│   ├── image_model.py
+│   ├── summarizer.py
+│
+├── tools/
+│   ├── web_search.py
+│
+├── voice/
+│   ├── wake_listener.py
+│   ├── speak.py
+│
+├── api/
+│   ├── server.py
+│
+├── ui/
+│   ├── index.html
+│
+└── requirements.txt
