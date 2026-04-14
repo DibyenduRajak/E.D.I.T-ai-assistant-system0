@@ -1,0 +1,2 @@
+ollama pull gemma:3
+ollama pull codellama
