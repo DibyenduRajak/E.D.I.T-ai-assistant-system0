@@ -132,31 +132,31 @@ Formats response
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+<br>
+▶️  RUN SYSTEM<br>
 
-▶️  RUN SYSTEM
+python -m venv venv<br>
+venv\Scripts\activate<br>
+pip install -r requirements.txt<br>
 
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
+uvicorn api.server:app --port 8000<br>
 
-uvicorn api.server:app --port 8000
+python main.py<br>
 
-python main.py
+Open UI: ui/index.html<br>
 
-Open UI: ui/index.html
+⚠️ FINAL SETUP NOTES<br>
+🔴 Download Piper Voice<br>
 
-⚠️ FINAL SETUP NOTES
-🔴 Download Piper Voice
+Place in root:<br>
 
-Place in root:
-
-en_US-lessac-medium.onnx
-🔴 Stable Diffusion First Run
-Will download ~5GB
-Needs GPU (recommended)
-🔴 Mic Fix (Windows)
-pip install pipwin
-pipwin install pyaudio
+en_US-lessac-medium.onnx<br>
+🔴 Stable Diffusion First Run<br>
+Will download ~5GB<br>
+Needs GPU (recommended)<br>
+🔴 Mic Fix (Windows)<br>
+pip install pipwin<br>
+pipwin install pyaudio<br>
 
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/689bfe19-f9c9-43f5-a529-a09040d036d5" />
