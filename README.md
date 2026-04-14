@@ -23,11 +23,8 @@ Maintain conversation memory
 
 
 Run via Ollama
-
 Model options:
-
 gemma:3 (fast + structured)
-
 llama3 (better reasoning)
 
 
@@ -66,7 +63,6 @@ Voice processing (Whisper / TTS)
 
 
 Speech-to-text: Whisper
-
 TTS: Coqui / Piper
 
 Vision: LLaVA or similar
