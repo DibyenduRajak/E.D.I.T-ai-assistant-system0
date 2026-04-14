@@ -128,3 +128,31 @@ Needs system control → send to Code AI
 Runs shell/docker commands
 5. Brain Collects Output
 Formats response
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+▶️  RUN SYSTEM
+
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+
+uvicorn api.server:app --port 8000
+
+python main.py
+
+Open UI: ui/index.html
+
+⚠️ FINAL SETUP NOTES
+🔴 Download Piper Voice
+
+Place in root:
+
+en_US-lessac-medium.onnx
+🔴 Stable Diffusion First Run
+Will download ~5GB
+Needs GPU (recommended)
+🔴 Mic Fix (Windows)
+pip install pipwin
+pipwin install pyaudio
